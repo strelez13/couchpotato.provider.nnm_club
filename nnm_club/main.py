@@ -18,7 +18,7 @@ class nnm_club(TorrentProvider, MovieProvider):
 
     baseurl = 'https://nnmclub.to/forum/'
     urls = {
-        'test' : 'https://nnm-club.to',
+        'test' : 'https://nnmclub.to',
         'login' : baseurl + 'login.php',
         'login_check': baseurl + 'contact.php',
         'detail' : baseurl + 'viewtopic.php?t=%s',
